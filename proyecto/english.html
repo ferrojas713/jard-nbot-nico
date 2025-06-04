@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Plantel 01, Botanical Garden</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Botanical Garden</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.cobachbcs.edu.mx/">official site Cobach</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.cibnor.gob.mx/guyiaqui/">Jardín Etnobiologico Cibnor</a>
+          </li>
+          <a href="index.html">regresar</a>
+          <!--
+          <li class="nav-item">
+            <a class="nav-link disabled" href="index.html" tabindex="-1" aria-disabled="true">go back</a>
+          </li>
+        -->
+        </ul>
+        <!--
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        -->
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="WhatsApp Image 2025-05-22 at 07.12.38.jpeg" alt="">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Botanical Garden</h1>
+            <p>Botanic Garden of Campus 01</p>
+            <!--
+            <p><a class="btn btn-lg btn-primary" href="#">Echale un vistazo</a></p>
+            -->
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+         <img src="WhatsApp Image 2025-05-22 at 07.12.37 (1).jpeg" alt="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>White Copal</h1>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+         <img src="WhatsApp Image 2025-05-22 at 07.12.38 (2).jpeg" alt="">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Green Stick</h1>
+            <!--
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+         <img src="WhatsApp Image 2025-05-22 at 07.12.37 (2).jpeg" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140">
+        <h2>Rat House</h2>
+        <p>Echinocereus brandegeei (Rat House) It is an endemic species found in Baja California Sur, Mexico. The flower is a broad, bell-shaped flower that ranges from purple to light pink with a bright red interior.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+         <img src="WhatsApp Image 2025-05-22 at 07.12.37.jpeg" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140">
+        <h2>Old Cactus</h2>
+        <p>The Old Man Cactus is notable for its long, hairy white fibers that cover its columnar stems. These fibers give it a white or gray hair-like appearance. These fibers serve to protect it.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="WhatsApp Image 2025-05-22 at 07.12.38 (1).jpeg" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140">
+        <h2>Biznaga</h2>
+        <p>Ferocactus wislizenii, Commonly known as the water biznaga, it is a type of cactus characterized by its barrel-shaped form. It is one of the most efficient plants at capturing dew water.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Sweet Pitaya <span class="text-muted">(Dragon Fruit).</span></h2>
+        <p class="lead">The sweet pitaya, also known as dragon fruit, is the fruit of a cactus of the Hylocereus genus, highly prized for its flavor and nutritional value. It is native to Central America and Mexico, although today it is cultivated in many tropical and subtropical regions of the world, such as Asia, South America, and even some areas of the Mediterranean.</p>
+      </div>
+      <div class="col-md-5">
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./WhatsApp Image 2025-05-22 at 07.12.37 (5).jpeg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Cyrtocarpa edulis<span class="text-muted">(Mountain Plum Tree)</span></h2>
+        <p class="lead">The "mountain plum" refers to a wild tree scientifically known as Cyrtocarpa edulis. It is a shrub or tree growing up to 5 meters tall and grows in warm, dry, and semi-dry climates. Its leaves are alternate, pinnate, yellowish-green, and 10 to 20 cm long. The flowers are small and red or pink. It is also known as the "wild plum" and is a symbol of identity for many Southern Californians. </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  src="./WhatsApp Image 2025-05-22 at 07.12.38 (3).jpeg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">White Copal <span class="text-muted">(copalillo)</span></h2>
+        <p class="lead">White copal, also known as "copal de penca," is extracted from the bark of the tree by making diagonal cuts to allow the resin to flow and be collected. It is an aromatic resin that has been used by pre-Hispanic cultures and remains popular in Mexico and Central America.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./WhatsApp Image 2025-05-22 at 07.12.37 (1).jpeg" alt="">
+        </div>
+      </div>
+
+        <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2" >
+        <h2 class="featurette-heading">Green Stick <span class="text-muted">(Parkinsonia aculeata)</span></h2>
+        <p class="lead">The Green Stick (Parkinsonia aculeata) is a tree native to tropical America, known for its resistance to drought and high temperatures. It is a small tree that can reach 6 to 8 meters in height. Its trunk and branches are green, and it photosynthesizes through them, as well as through its leaves.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./WhatsApp Image 2025-05-22 at 07.12.37 (3).jpeg" alt="">
+        
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Cardon <span class="text-muted">(Pachycereus pringlei)</span></h2>
+        <p class="lead">A succulent, columnar, arborescent plant with ascending branches that can reach up to 19 m in height. It generally grows in clusters called "cardonales." The flower is yellowish-white with pink or purple lines; the fruit pulp can be red, pink, or white. Flowering generally occurs from mid-April to late June. An important characteristic is that this species has three sexes (males, females, and hermaphrodites), although the flowers themselves are morphologically unchanged. It is a key species in the ecosystem, as its flowers (nectar, pollen), fruits, and seeds constitute essential food for different faunal groups, as they were also for the ancient inhabitants.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./WhatsApp Image 2025-05-26 at 09.23.01.jpeg" alt="">
+        
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="index.html">Back to top</a></p>
+    <h3 style="font-size: 15px;"> Website developed and built by the students of the Baja California Sur State High School, Campus 01:
+     </h3>
+     <h4 style="font-size: 15px;">
+      Fernanda Rojas, Karen Marquez y Aime Tapia.
+    <br>
+    Gen:2022-2025
+    </h4>
+    <hr>
+  </footer>
+</main>
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
